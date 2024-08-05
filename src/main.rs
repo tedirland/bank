@@ -7,7 +7,7 @@ struct Account {
 
 #[derive(Debug)]
 struct Bank {
-    accounts: [Account],
+    accounts: Vec<Account>,
 }
 
 fn main() {
